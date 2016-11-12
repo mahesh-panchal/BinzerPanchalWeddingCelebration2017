@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amrei and Mahesh Binzer-Panchal</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!--<link rel="stylesheet" href="stylesheet.css">-->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="javascript.js"></script>
+	</head>
+	<body onload="set_language()">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a lang="en" class="navbar-brand" href="#" onclick="set_language_de()">Auf Deutsch</a>
+				  <a lang="de" class="navbar-brand" href="#" onclick="set_language_en()">In English</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a lang="en" class="dropdown-toggle" data-toggle="dropdown" href="#">Wedding in Germany<span class="caret"></span></a>
+							<a lang="de" class="dropdown-toggle" data-toggle="dropdown" href="#">Heirat in Deutschland<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a lang="en" href="overview_de.html">Overview</a><a lang="de" href="overview_de.html">Overview</a></li>
+								<li><a lang="en" href="location_de.html">Location</a><a lang="de" href="location_de.html">Location</a></li>
+								<li><a lang="en" href="timetable_de.html">Timetable</a><a lang="de" href="timetable_de.html">Timetable</a></li>
+								<li><a lang="en" href="accommodation_de.html">Accommodation</a><a lang="de" href="accommodation_de.html">Accommodation</a></li>
+								<li><a lang="en" href="travel_de.html">How to get here</a><a lang="de" href="travel_de.html">How to get here</a></li>
+								<li><a lang="en" href="clothing_de.html">Dresscode</a><a lang="de" href="clothing_de.html">Kleiderordnung</a></li>
+								<li><a lang="en" href="contact_de.html">Contact</a><a lang="de" href="contact_de.html">Kontakt</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a lang="en" class="dropdown-toggle" data-toggle="dropdown" href="#">Wedding in England<span class="caret"></span></a>
+							<a lang="de" class="dropdown-toggle" data-toggle="dropdown" href="#">Heirat in England<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a lang="en" href="overview_en.html">Overview</a><a lang="de" href="overview_en.html">Overview</a></li>
+								<li><a lang="en" href="location_en.html">Location</a><a lang="de" href="location_en.html">Location</a></li>
+								<li><a lang="en" href="timetable_en.html">Timetable</a><a lang="de" href="timetable_en.html">Timetable</a></li>
+								<li><a lang="en" href="accommodation_en.html">Accommodation</a><a lang="de" href="accommodation_en.html">Accommodation</a></li>
+								<li><a lang="en" href="travel_en.html">How to get here</a><a lang="de" href="travel_en.html">How to get here</a></li>
+								<li><a lang="en" href="clothing_en.html">Dresscode</a><a lang="de" href="clothing_en.html">Kleiderordnung</a></li>
+								<li><a lang="en" href="contact_en.html">Contact</a><a lang="de" href="contact_en.html">Kontakt</a></li>
+							</ul>
+						</li>
+					</ul>
+					<!-- <ul class="nav navbar-nav navbar-right"> -->
+					<!-- <li><div class="btn-group"> -->
+						<!-- <button class="btn btn-default" onclick="set_language_en()">English</button> -->
+						<!-- <button class="btn btn-default" onclick="set_language_de()">Deutsch</button> -->
+					<!-- </div></li> -->
+					<!-- </ul> -->
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid content">
+			<div class="row">
+				<div class="col-sm-2 sidenav">
+				</div>
+				<div class="col-sm-8 text-left">
+					<h1 lang="en">Celebration in England</h1>
+					<h1 lang="de">Heirat in England</h1>
+					<p lang="en">Blah text here</p>
+					<p lang="de">Deutsch blah text</p>
+					<div class="panel panel-default">
+						<div class="list-group">
+							<a lang="en" href="overview_en.html" class="list-group-item">Celebration in England</a>
+							<a lang="en" href="location_en.html" class="list-group-item">Location</a>
+							<a lang="en" href="timetable_en.html" class="list-group-item">Timetable</a>
+							<a lang="en" href="accommodation_en.html" class="list-group-item">Accommodation</a>
+							<a lang="en" href="travel_en.html" class="list-group-item">Travel</a>
+							<a lang="en" href="clothing_en.html" class="list-group-item">Clothing</a>
+							<a lang="en" href="contact_en.html" class="list-group-item">Contact</a>
+							<a lang="de" href="overview_en.html" class="list-group-item">DE Celebration in England</a>
+							<a lang="de" href="location_en.html" class="list-group-item">DE Location</a>
+							<a lang="de" href="timetable_en.html" class="list-group-item">DE Timetable</a>
+							<a lang="de" href="accommodation_en.html" class="list-group-item">DE Accommodation</a>
+							<a lang="de" href="travel_en.html" class="list-group-item">DE Travel</a>
+							<a lang="de" href="clothing_en.html" class="list-group-item">DE Clothing</a>
+							<a lang="de" href="contact_en.html" class="list-group-item">DE Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 sidenav">
+					<img src="images/ind_couple.svg" class="img-responsive" alt="ind couple">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

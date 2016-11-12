@@ -1,0 +1,15 @@
+body.en :lang(de) {
+  display: none;
+}
+body.de :lang(en) {
+  display: none;
+}
+div.content {
+	margin-top:60px
+}
+div.pad {
+	padding-top:10px
+}
+.spacer_80 {
+	height: 80px
+}

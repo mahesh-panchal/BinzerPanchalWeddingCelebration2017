@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amrei and Mahesh Binzer-Panchal</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="javascript.js"></script>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body onload="set_language()">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="caret"></span>
+				  </button>
+				  <a lang="en" class="navbar-brand" href="#" onclick="set_language_de()">Auf Deutsch</a>
+				  <a lang="de" class="navbar-brand" href="#" onclick="set_language_en()">In English</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a lang="en" class="dropdown-toggle" data-toggle="dropdown" href="#">Wedding in Germany<span class="caret"></span></a>
+							<a lang="de" class="dropdown-toggle" data-toggle="dropdown" href="#">Heirat in Deutschland<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a lang="en" href="overview_de.html">Overview</a><a lang="de" href="overview_de.html">Overview</a></li>
+								<li><a lang="en" href="location_de.html">Location</a><a lang="de" href="location_de.html">Location</a></li>
+								<li><a lang="en" href="timetable_de.html">Timetable</a><a lang="de" href="timetable_de.html">Timetable</a></li>
+								<li><a lang="en" href="accommodation_de.html">Accommodation</a><a lang="de" href="accommodation_de.html">Accommodation</a></li>
+								<li><a lang="en" href="travel_de.html">How to get here</a><a lang="de" href="travel_de.html">How to get here</a></li>
+								<li><a lang="en" href="clothing_de.html">Dresscode</a><a lang="de" href="clothing_de.html">Kleiderordnung</a></li>
+								<li><a lang="en" href="contact_de.html">Contact</a><a lang="de" href="contact_de.html">Kontakt</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a lang="en" class="dropdown-toggle" data-toggle="dropdown" href="#">Wedding in England<span class="caret"></span></a>
+							<a lang="de" class="dropdown-toggle" data-toggle="dropdown" href="#">Heirat in England<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a lang="en" href="overview_en.html">Overview</a><a lang="de" href="overview_en.html">Overview</a></li>
+								<li><a lang="en" href="location_en.html">Location</a><a lang="de" href="location_en.html">Location</a></li>
+								<li><a lang="en" href="timetable_en.html">Timetable</a><a lang="de" href="timetable_en.html">Timetable</a></li>
+								<li><a lang="en" href="accommodation_en.html">Accommodation</a><a lang="de" href="accommodation_en.html">Accommodation</a></li>
+								<li><a lang="en" href="travel_en.html">How to get here</a><a lang="de" href="travel_en.html">How to get here</a></li>
+								<li><a lang="en" href="clothing_en.html">Dresscode</a><a lang="de" href="clothing_en.html">Kleiderordnung</a></li>
+								<li><a lang="en" href="contact_en.html">Contact</a><a lang="de" href="contact_en.html">Kontakt</a></li>
+							</ul>
+						</li>
+					</ul>
+					<!-- <ul class="nav navbar-nav navbar-right"> -->
+					<!-- <li><div class="btn-group"> -->
+						<!-- <button class="btn btn-default" onclick="set_language_en()">English</button> -->
+						<!-- <button class="btn btn-default" onclick="set_language_de()">Deutsch</button> -->
+					<!-- </div></li> -->
+					<!-- </ul> -->
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid content">
+			<div class="row">
+				<div class="col-sm-1 pad">
+				</div>
+				<div class="col-sm-5 pad">
+					<h1 lang="en" class="">Wedding Celebration in Germany</h1>
+					<h1 lang="de" class="">Heirat in Deutschland</h1>
+					<h2 lang="en" class="">Saturday 24th June 2017</h2>
+					<h2 lang="de" class="">Samstag 24th Juni 2017</h2>
+					<a href="overview_de.html">
+					<img src="images/euro_couple.svg" class="img-responsive center-block" alt="Amrei and Mahesh in wedding attire for the celebration in Germany">
+					</a>
+				</div>
+				<div class="col-sm-5 pad" style="background-color:firebrick;">
+					<h1 lang="en" class="">Wedding Celebration in UK</h1>
+					<h1 lang="de" class="">Heirat in UK</h1>
+					<h2 lang="en" class="">Tuesday 29th August - <br/>Wednesday 30th August 2017</h2>
+					<h2 lang="de" class="">Dienstag 29th August - <br/>Mittwoch 30th August 2017</h2>
+					<a href="overview_en.html">
+					<img src="images/ind_couple.svg" class="img-responsive center-block" alt="Mahesh and Amrei in wedding attire for the celebration in England">
+					</a>
+				</div>
+				<div class="col-sm-1 pad">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
