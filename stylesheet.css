@@ -1,19 +1,34 @@
 body.en :lang(de) {
-  display: none;
+	display: none;
 }
+
 body.de :lang(en) {
-  display: none;
+	display: none;
 }
-div.content {
-	margin-top:60px
-}
-div.pad {
-	padding-top:10px
-}
-.spacer_80 {
-	height: 80px
-}
+
 .icon-bar-group {
 	display: inline-block;
 	vertical-align:middle;
+}
+
+div.content {
+	margin-top:60px;
+}
+
+div.pad {
+	padding-top:10px;
+}
+
+.spacer_80 {
+	height:80px;
+}
+
+.banner{
+	background-color:#e69c00;
+	color: white;
+}
+
+.extra-stuff{
+	background: url(images/header-banner.jpeg) no-repeat;
+	background-color:#3395b3;
 }
