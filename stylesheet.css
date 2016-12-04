@@ -13,3 +13,7 @@ div.pad {
 .spacer_80 {
 	height: 80px
 }
+.icon-bar-group {
+	display: inline-block;
+	vertical-align:middle;
+}
